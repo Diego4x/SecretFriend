@@ -1,0 +1,65 @@
+@import url('https://kodhus.com/kodhus-ui/kodhus-0.1.0.min.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+header {
+  overflow: hidden;
+  background-color: blue;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.tag-container {
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 6px;
+  overflow-x: scroll;
+}
+
+.tag-container .tag {
+  height: 30px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: blue;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: default;
+}
+
+.tag i {
+  font-size: 15px;
+  color: white;
+  margin-left: 5px;
+}
+
+.tag-container input {
+  padding: 5px;
+  font-size: 15px;
+  font-family: Rubik;
+  border: 0;
+  outline: none;
+  color: #333;
+  flex: 1;
+}
+
+#btn {
+  width: 50%;
+  margin: 15px auto;
+}
